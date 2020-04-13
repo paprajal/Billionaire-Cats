@@ -11,7 +11,9 @@ package unogame;
  */
 public class UnoGame {
 
-     public enum Suit {RED, YELLOW,GREEN,BLUE}; // thype of cards
+     public enum Suit {RED, YELLOW,GREEN,BLUE;
+
+		private int attribute;}; // thype of cards
         public enum Value{ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, 
         NINE, COLOR,SKIP,REVERSE,DRAWTWO,DRAWFOUR,WILDCARD};  // number of cards
         private final Suit suit;

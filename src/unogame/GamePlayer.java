@@ -20,5 +20,20 @@ public class GamePlayer {
                 }
                // System.out.println(ch.cards); show what happens when there is no toString()
 	}
+
+	public void getAttribute() {
+		// TODO - implement GamePlayer.getAttribute
+		throw new UnsupportedOperationException();
+	}
+
+	/**
+	 * 
+	 * @param attribute
+	 */
+	public void setAttribute(int attribute) {
+		this.attribute = attribute;
+	}
+
+	private int attribute;
     
 }
